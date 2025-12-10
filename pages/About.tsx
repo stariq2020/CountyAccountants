@@ -58,7 +58,7 @@ const About: React.FC = () => {
           <div className="bg-white rounded-2xl overflow-hidden shadow-xl flex flex-col md:flex-row">
             <div className="md:w-2/5">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop" 
+                src="https://i.ibb.co/qD4V2z6/image.png" 
                 alt="Usman Akram, Director" 
                 className="w-full h-full object-cover"
               />
