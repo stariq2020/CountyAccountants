@@ -37,9 +37,12 @@ const Contact: React.FC = () => {
                   <Phone className="w-6 h-6 text-gold-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-navy-900">Phone</h3>
-                  <p className="text-slate-600 mb-1">Mon-Fri from 9am to 5pm</p>
-                  <a href="tel:02071234567" className="text-gold-600 font-medium hover:underline">020 7123 4567</a>
+                  <h3 className="font-bold text-navy-900">Contact Numbers</h3>
+                  <div className="text-slate-600 mt-1 space-y-1">
+                    <p><span className="font-medium text-navy-900 w-16 inline-block">Phone:</span> <a href="tel:+442079936180" className="hover:text-gold-600">+44 (0)20 7993 6180</a></p>
+                    <p><span className="font-medium text-navy-900 w-16 inline-block">Mobile:</span> <a href="tel:+447903735920" className="hover:text-gold-600">+44 (0)79 0373 5920</a></p>
+                    <p><span className="font-medium text-navy-900 w-16 inline-block">Fax:</span> +44 (0)20 7183 2877</p>
+                  </div>
                 </div>
               </div>
 
@@ -61,9 +64,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="font-bold text-navy-900">Office</h3>
                   <p className="text-slate-600">
-                    123 Business Park Way,<br />
-                    Financial District,<br />
-                    London, EC1A 1BB
+                    438 Streatham High Road,<br />
+                    London. SW16 3PX
                   </p>
                 </div>
               </div>
@@ -74,8 +76,10 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-navy-900">Office Hours</h3>
-                  <p className="text-slate-600">Monday - Friday: 09:00 - 17:00</p>
-                  <p className="text-slate-600">Saturday & Sunday: Closed</p>
+                  <div className="text-slate-600 mt-1 space-y-1">
+                     <div className="flex justify-between w-48"><span>Mon - Sat:</span> <span>10:00 to 18:00</span></div>
+                     <div className="flex justify-between w-48"><span>Sunday:</span> <span>Closed</span></div>
+                  </div>
                 </div>
               </div>
             </div>

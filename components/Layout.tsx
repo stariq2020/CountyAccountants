@@ -35,7 +35,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <div className="flex space-x-6">
             <span className="flex items-center hover:text-white transition-colors cursor-pointer">
-              <Phone className="w-3 h-3 mr-2 text-gold-500" /> 020 7123 4567
+              <Phone className="w-3 h-3 mr-2 text-gold-500" /> +44 (0)20 7993 6180
             </span>
             <span className="flex items-center hover:text-white transition-colors cursor-pointer">
               <Mail className="w-3 h-3 mr-2 text-gold-500" /> info@countyaccountants.co.uk
@@ -192,11 +192,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <ul className="space-y-4">
               <li className="flex items-start text-slate-400 text-sm">
                 <MapPin className="w-5 h-5 mr-3 text-gold-500 flex-shrink-0" />
-                <span>123 Business Park Way,<br/>Financial District, London,<br/>UK, EC1A 1BB</span>
+                <span>438 Streatham High Road,<br/>London. SW16 3PX</span>
               </li>
               <li className="flex items-center text-slate-400 text-sm">
                 <Phone className="w-5 h-5 mr-3 text-gold-500 flex-shrink-0" />
-                <span>020 7123 4567</span>
+                <span>+44 (0)20 7993 6180</span>
               </li>
               <li className="flex items-center text-slate-400 text-sm">
                 <Mail className="w-5 h-5 mr-3 text-gold-500 flex-shrink-0" />
