@@ -54,22 +54,15 @@ const About: React.FC = () => {
 
       {/* Director Profile */}
       <div className="bg-slate-50 py-20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl overflow-hidden shadow-xl flex flex-col md:flex-row">
-            <div className="md:w-2/5">
-              <img 
-                src="https://i.ibb.co/qD4V2z6/image.png" 
-                alt="Usman Akram, Director" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="md:w-3/5 p-8 md:p-12 flex flex-col justify-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-2xl overflow-hidden shadow-xl">
+            <div className="p-8 md:p-12 flex flex-col justify-center text-center">
               <h4 className="text-gold-600 font-bold uppercase tracking-wide text-sm mb-2">The Director</h4>
               <h2 className="text-3xl font-serif font-bold text-navy-900 mb-4">Usman Akram <span className="text-lg font-sans font-normal text-slate-500">FCA</span></h2>
-              <p className="text-slate-600 mb-6 leading-relaxed">
+              <p className="text-slate-600 mb-6 leading-relaxed max-w-2xl mx-auto">
                 With over 20 years of experience in practice and industry, Usman leads County Accountants Limited with a vision to bridge the gap between traditional compliance and modern business advisory.
               </p>
-              <p className="text-slate-600 mb-8 leading-relaxed">
+              <p className="text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto italic">
                 "I started this firm because I saw too many small business owners overwhelmed by their finances. My goal is to take that stress away and replace it with confidence. When our clients succeed, we succeed."
               </p>
               <div>
