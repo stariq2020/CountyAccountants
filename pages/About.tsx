@@ -58,23 +58,23 @@ const About: React.FC = () => {
           <div className="bg-white rounded-2xl overflow-hidden shadow-xl flex flex-col md:flex-row">
             <div className="md:w-2/5">
               <img 
-                src="https://picsum.photos/seed/director/600/800" 
-                alt="Sarah Jenkins, Director" 
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop" 
+                alt="Usman Akram, Director" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="md:w-3/5 p-8 md:p-12 flex flex-col justify-center">
               <h4 className="text-gold-600 font-bold uppercase tracking-wide text-sm mb-2">The Director</h4>
-              <h2 className="text-3xl font-serif font-bold text-navy-900 mb-4">Sarah Jenkins <span className="text-lg font-sans font-normal text-slate-500">FCA</span></h2>
+              <h2 className="text-3xl font-serif font-bold text-navy-900 mb-4">Usman Akram <span className="text-lg font-sans font-normal text-slate-500">FCA</span></h2>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                With over 20 years of experience in practice and industry, Sarah founded County Accountants Limited with a vision to bridge the gap between traditional compliance and modern business advisory.
+                With over 20 years of experience in practice and industry, Usman leads County Accountants Limited with a vision to bridge the gap between traditional compliance and modern business advisory.
               </p>
               <p className="text-slate-600 mb-8 leading-relaxed">
                 "I started this firm because I saw too many small business owners overwhelmed by their finances. My goal is to take that stress away and replace it with confidence. When our clients succeed, we succeed."
               </p>
               <div>
                 <Link to="/contact">
-                  <Button>Contact Sarah's Team</Button>
+                  <Button>Contact Usman's Team</Button>
                 </Link>
               </div>
             </div>
