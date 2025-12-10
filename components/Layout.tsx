@@ -57,13 +57,27 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <Link to="/" className="flex items-center group">
-              <div className="bg-navy-900 text-white p-2 mr-3 group-hover:bg-gold-500 transition-colors duration-300">
-                 <span className="font-serif font-bold text-xl">CA</span>
+            <Link to="/" className="flex items-center gap-3 group">
+              {/* Custom SVG Logo */}
+              <div className="relative w-12 h-12 flex-shrink-0">
+                <svg viewBox="0 0 100 100" className="w-full h-full text-navy-900 group-hover:text-navy-800 transition-colors" fill="currentColor">
+                  {/* Outer Box */}
+                  <path d="M5 5H95V95H5Z" stroke="currentColor" strokeWidth="8" fill="none" />
+                  
+                  {/* Bars */}
+                  <rect x="22" y="50" width="14" height="30" />
+                  <rect x="43" y="35" width="14" height="45" />
+                  <rect x="64" y="20" width="14" height="60" />
+                  
+                  {/* Swoosh - visual cut using white stroke (matches bg) */}
+                  <path d="M10 85 Q 50 65 90 25" stroke="white" strokeWidth="6" fill="none" className="stroke-white" />
+                </svg>
               </div>
-              <div className="flex flex-col">
-                <span className="font-serif font-bold text-lg md:text-xl text-navy-900 leading-none">COUNTY</span>
-                <span className="text-xs tracking-widest text-slate-500 uppercase">Accountants Ltd</span>
+
+              {/* Text */}
+              <div className="flex flex-col justify-center">
+                <span className="font-serif font-bold text-2xl text-navy-900 leading-none tracking-wide">COUNTY</span>
+                <span className="font-sans font-bold text-xs text-navy-900 tracking-[0.2em] uppercase mt-0.5">ACCOUNTANTS</span>
               </div>
             </Link>
 
@@ -133,8 +147,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center">
-              <span className="font-serif font-bold text-2xl text-white">COUNTY</span>
+            <div className="flex items-center space-x-3">
+               <span className="font-serif font-bold text-2xl text-white tracking-wide">COUNTY</span>
+               <span className="font-sans font-medium text-xs text-slate-300 tracking-widest uppercase border-l border-slate-600 pl-3">Accountants</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Serving UK SMEs since 2009. We provide clarity, compliance, and strategic growth advice to businesses across the country.
